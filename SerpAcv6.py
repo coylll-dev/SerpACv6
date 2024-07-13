@@ -176,7 +176,7 @@ def folders():
 
 #Открывает сайты читов
 def history():
-	print(bcolors.RED, "\nОткрытие сайтов...", bcolors.ENDC)
+	print("\nОткрытие сайтов...")
 	webbrowser.open('https://midnight.im/', new=2)
 	webbrowser.open('https://xone.fun/', new=2)
 	webbrowser.open('https://neverlose.cc/', new=2)
@@ -280,7 +280,7 @@ class App(ctk.CTk):
         super().__init__(*args, **kwargs)
  
         self.title("Serp Anticheat")
-        self.iconbitmap("..\\img\\icon.ico")
+        # self.iconbitmap("..\\img\\icon.ico")
         self.geometry(f"{appWidth}x{appHeight}")
  
         # Hello {User}! Label
@@ -356,3 +356,4 @@ class App(ctk.CTk):
 
 app = App()
 app.mainloop()
+# app.mainloop()
