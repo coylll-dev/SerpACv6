@@ -336,7 +336,7 @@ class App(ctk.CTk):
                                         sticky="ew", ipadx=40, ipady=10)
         # Scan folders Button
         self.ScanFoldersButton = ctk.CTkButton(self,
-                                         text="Scan Files", command=search_folders_small)
+                                         text="Scan Folders", command=search_folders_small)
         self.ScanFoldersButton.grid(row=3, column=2,
                                         columnspan=2,
                                         padx=20, pady=20,
@@ -344,7 +344,7 @@ class App(ctk.CTk):
         
         # Scan all Button
         self.ScanAllButton = ctk.CTkButton(self,
-                                         text="Scan Files", command=itog, hover_color="purple")
+                                         text="Result", command=itog, hover_color="purple")
         self.ScanAllButton.grid(row=3, column=4,
                                         columnspan=2,
                                         padx=20, pady=20,
